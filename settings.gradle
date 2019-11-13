@@ -1,4 +1,5 @@
 rootProject.name = 'Echo'
 include 'EchoServer'
 include 'EchoClient'
+include 'hello'
 
