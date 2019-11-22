@@ -3,4 +3,5 @@ include 'EchoServer'
 include 'EchoClient'
 include 'hello'
 include 'Chapter9'
+include 'Cat'
 
