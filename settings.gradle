@@ -7,4 +7,6 @@ include 'Cat'
 include 'ChatClient'
 include 'ChatServer'
 include 'Proto'
+include 'MultiProtocolServer'
+include 'MultiProtocolClient'
 
