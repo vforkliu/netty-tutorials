@@ -21,3 +21,8 @@ curl -X post 'localhost:8899'
 ```Groovy
 id 'com.github.johnrengelman.shadow' version '5.2.0'
 ```
+
+## Proto
+```bash
+protoc --java_out=src/main/java src/protobuf/Student.proto
+```

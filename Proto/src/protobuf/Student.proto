@@ -1,0 +1,26 @@
+syntax ="proto3";
+
+package com.forkliu.protobuf;
+
+//optimize_for 加快解析的速度
+option optimize_for = SPEED;
+option java_package = "com.forkliu.protobuf";
+option java_outer_classname="DataInfo";
+
+message Student{
+    string name = 1;
+    int32 age = 2;
+    string address = 3;
+}
+
+message RequestUser{
+    string user_name = 1;
+    int32 age = 2;
+    string password = 3;
+}
+
+message ResponseBank{
+    string bank_no = 1;
+    double money = 2;
+    string bank_name=3;
+}
